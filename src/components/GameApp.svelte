@@ -47,10 +47,6 @@
       return;
     }
 
-    // Play sound
-    const transactionSound = new Audio(TransactionComplete);
-    transactionSound.play();
-
     // Apply item
     handlePurchaseEffect(id);
 
@@ -59,6 +55,12 @@
 
     // Update owned count
     itemsOwned[id] = itemsOwned[id] + 1;
+
+    if (audioEnabled) {
+      // Play sound
+      const transactionSound = new Audio(TransactionComplete);
+      transactionSound.play();
+    }
   };
 
   const handlePurchaseEffect = (id: ShopItem) => {
