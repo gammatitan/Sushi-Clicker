@@ -30,6 +30,9 @@
   :global(p) {
     margin: 0;
     text-transform: uppercase;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   :global(p) {

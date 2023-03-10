@@ -31,7 +31,9 @@
   };
 </script>
 
-<button on:click={handleClick}><img src={Sushi} alt="" /></button>
+<button on:click={handleClick}>
+  <img src={Sushi} alt="" draggable="false" />
+</button>
 
 <style>
   button {
@@ -48,6 +50,11 @@
 
   img {
     width: 100%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
   }
 
   @keyframes bobbing {
