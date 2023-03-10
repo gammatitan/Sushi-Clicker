@@ -55,6 +55,9 @@
     -moz-user-drag: none;
     -o-user-drag: none;
     user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   @keyframes bobbing {

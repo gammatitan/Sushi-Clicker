@@ -18,7 +18,7 @@ export const SHOP_ITEMS = [
   {
     id: ShopItem.ScoreDoubler,
     name: 'x2 Score',
-    pointsRequired: 25,
+    pointsRequired: 50,
     image: FlameIcon,
   },
 ];

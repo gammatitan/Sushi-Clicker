@@ -5,5 +5,5 @@
 </script>
 
 <Panel>
-  <p>Score: {score}</p>
+  <p>{score}</p>
 </Panel>
