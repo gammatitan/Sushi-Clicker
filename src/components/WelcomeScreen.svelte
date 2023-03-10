@@ -10,7 +10,7 @@
 </script>
 
 <div id="welcome-screen" class={buttonClicked ? "animate-out" : ""}>
-  <h1 id="title">Sushi Clicker</h1>
+  <h1 id="title">Flying Sushi</h1>
   <button id="start-button" on:click={handleClick}>Let's go</button>
 </div>
 
