@@ -5,6 +5,7 @@
   import TransactionComplete from "../assets/transaction-complete.mp3";
   import { ShopItem, SHOP_ITEMS } from "../config";
   import type { PurchasesLookup } from "../config";
+  import Footer from "./Footer.svelte";
 
   let score = 0;
   let gameStarted = false;
@@ -97,6 +98,7 @@
       onShopItemClick={handleShopItemPurchase}
     />
   </div>
+  <Footer />
   <section id="game-app-bg">
     <div id="stars" />
     <div id="stars2" />
