@@ -7,3 +7,9 @@
 <Panel>
   <p>{score}</p>
 </Panel>
+
+<style>
+  p {
+    font-size: 32px;
+  }
+</style>
